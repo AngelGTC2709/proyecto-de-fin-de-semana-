@@ -316,6 +316,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 .ruleta{
     display: flex;
@@ -326,6 +327,20 @@ body{
 .imgin{
     width: 540px;
     height: 360px;
+    transition-timing-function: ease-in-out;
+}
+.imgin:hover{
+    t
+
+}
+.dicecciones{
+    display:flex ;
+}
+.Derecha{
+    width: 64px;
+}
+.Izquierda{
+    height: 64px;
 }
 .marco{
     display:flex;
