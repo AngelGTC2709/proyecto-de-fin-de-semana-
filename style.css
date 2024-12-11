@@ -391,6 +391,8 @@ body{
 }
 .secionFn{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* Estilo para pantallas de máximo 600px (teléfonos móviles pequeños) */
 @media (max-width: 600px) {
