@@ -330,11 +330,12 @@ body{
     transition-timing-function: ease-in-out;
 }
 .imgin:hover{
-    t
+    transition:all 2s  ;
 
 }
 .dicecciones{
     display:flex ;
+    gap: 1rem;
 }
 .Derecha{
     width: 64px;
@@ -387,6 +388,9 @@ body{
     align-items: center;
     text-decoration: none;
 
+}
+.secionFn{
+    display: flex;
 }
 /* Estilo para pantallas de máximo 600px (teléfonos móviles pequeños) */
 @media (max-width: 600px) {
