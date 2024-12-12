@@ -49,12 +49,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+.boton:hover{
+    background-color: var(--color-morad);
+}
 .texto-de-boton{
     text-align: center;
     font-family: var(--font-titulo3);
     color: var(--color-blanco);
     font-size: var(--font-texto);
 
+}
+.texto-de-boton:hover{
+    background-color: var(--color-morad);
 }
 .secion1{
     display: flex;
@@ -307,7 +313,9 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-
+}
+.boton1:hover{
+    background-color: var(--color-naranja);
 }
 .imagen4{
     width: 260px;
@@ -320,28 +328,25 @@ body{
 }
 .ruleta{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
-    width: clamp(200px, 100%, 1457px);
 }
 .imgin{
-    width: 540px;
-    height: 360px;
-    transition-timing-function: ease-in-out;
-}
-.imgin:hover{
-    transition:all 2s  ;
-
+    height: 345px;
 }
 .dicecciones{
     display:flex ;
     gap: 1rem;
 }
-.Derecha{
-    width: 64px;
+.flecha{
+    width: 15px;
+    padding: 20px;
+    border-radius: 1000px;
+    background-color: var(--color-negro);
 }
-.Izquierda{
-    height: 64px;
+.flecha:hover{
+    background-color: var(--color-morad); 
 }
 .marco{
     display:flex;
