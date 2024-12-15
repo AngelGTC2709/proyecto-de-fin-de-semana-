@@ -48,6 +48,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .boton:hover{
     background-color: var(--color-morad);
@@ -327,10 +328,28 @@ body{
     gap: 1rem;
 }
 .ruleta{
+    width: 80%; 
+    overflow: hidden; 
+    border-radius: 10px;
+}
+.ruleta-imagenes{
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
+    transition: transform 0.5s ease-in-out;
+    width: 30%; 
+    animation: slide 9s infinite; 
+}
+.ruleta img{
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+@keyframes slide { 
+    0% { transform: translateX(0); } 
+    25% { transform: translateX(-63.33%); } 
+    50% { transform: translateX(-126.66%); } 
+    75% { transform: translateX(-190%); }
+    100%{ transform: translateX(0);}
 }
 .imgin{
     height: 345px;
@@ -344,6 +363,7 @@ body{
     padding: 20px;
     border-radius: 1000px;
     background-color: var(--color-negro);
+    cursor: pointer;
 }
 .flecha:hover{
     background-color: var(--color-morad); 
@@ -410,6 +430,12 @@ body{
         padding: 0; 
         font-size: x-small;
         height: 3500px;
+    }
+    .ruleta {
+         width: 100%; 
+    } 
+    .ruleta-imagenes img {
+         width: 100%;
     }
 }
 /* Estilo para pantallas de máximo 768px (teléfonos grandes y tabletas pequeñas) */
