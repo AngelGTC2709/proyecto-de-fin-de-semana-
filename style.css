@@ -452,10 +452,16 @@ body{
         text-align: center;
         height: 4000px;
     }
+    .ruleta {
+        width: 100%; 
+    } 
+    .ruleta-imagenes img {
+         width: 100%;
+    }
 }
 
 /* Estilo para pantallas de mínimo 769px (tabletas grandes y computadoras) */
-@media (min-width: 769px) {
+@med ia (min-width: 769px) {
     body {
         font-size: 18px; 
         margin: 1px;
